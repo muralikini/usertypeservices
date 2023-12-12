@@ -11,6 +11,7 @@ env:
   REGISTRY: docker.io
   GITREPO: usertypeservices
   IMAGE_NAME: ${{secrets.DOCKERHUB_USERNAME }}
+  
 jobs:
   build:
     runs-on: ubuntu-latest
